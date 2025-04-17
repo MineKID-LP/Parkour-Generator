@@ -1,0 +1,12 @@
+name: Parkour_Generator
+version: '1.0'
+main: eu.duckrealm.parkourGenerator.ParkourGenerator
+api-version: '1.21'
+commands:
+  start-parkour:
+    description: Start a new parkour
+    usage: /start-parkour <position> <length>
+    permission: parkour.start
+permissions:
+  parkour:
+    start:
